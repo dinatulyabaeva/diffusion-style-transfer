@@ -1,0 +1,33 @@
+{
+  "experiment": "ip_const_0.6",
+  "method": "ip_adapter",
+  "base_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "controlnet_model": "lllyasviel/control_v11p_sd15_canny",
+  "ip_adapter_model": "h94/IP-Adapter",
+  "ip_adapter_weight": "ip-adapter_sd15.safetensors",
+  "dino_model": "facebook/dinov2-small",
+  "resolution": 512,
+  "steps": 30,
+  "guidance_scale": 7.5,
+  "controlnet_scale": 0.8,
+  "control_guidance_start": 0,
+  "control_guidance_end": 1,
+  "adapter_scale": 0.6,
+  "schedule": "constant",
+  "schedule_delta": 0.3,
+  "seeds": [
+    17,
+    42,
+    123
+  ],
+  "style_reference": "data/style/reference.png",
+  "photos_manifest": "data/coco/manifest.json",
+  "canny_low": 100,
+  "canny_high": 200,
+  "canny_sigma": 1,
+  "edge_tolerance_px": 2,
+  "negative_prompt": "low quality, blurry, deformed, watermark, text",
+  "cpu_offload": true,
+  "warmup": true,
+  "deterministic": true
+}
