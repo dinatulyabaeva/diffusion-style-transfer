@@ -1,0 +1,6 @@
+{
+  "stable-diffusion-v1-5/stable-diffusion-v1-5": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "lllyasviel/control_v11p_sd15_canny": "115a470d547982438f70198e353a921996e2e819",
+  "h94/IP-Adapter": "018e402774aeeddd60609b4ecdb7e298259dc729",
+  "facebook/dinov2-small": "ed25f3a31f01632728cabb09d1542f84ab7b0056"
+}
