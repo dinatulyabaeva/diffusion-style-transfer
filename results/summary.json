@@ -1,0 +1,102 @@
+{
+  "fingerprint": "4fe1b748a7726a77647a455ce8990d75dfad2dfe24839b7c4200ccd0dbb1f45e",
+  "metrics_status": "EDGE_AND_DINO_COMPUTED",
+  "dino_feature": "last_hidden_state[:, 0, :] / L2 norm",
+  "summaries": {
+    "dev": {
+      "generated_images": 15,
+      "flagged_images": 0,
+      "edge_f1": {
+        "mean": 0.43928890226192,
+        "ci95": [
+          0.33389892678651967,
+          0.5215358321828321
+        ],
+        "n_photos": 5,
+        "bootstrap_repetitions": 2000
+      },
+      "dino_cosine": {
+        "mean": 0.39291049093008046,
+        "ci95": [
+          0.22652401278416318,
+          0.5369745214780172
+        ],
+        "n_photos": 5,
+        "bootstrap_repetitions": 2000
+      },
+      "seconds": {
+        "mean": 22.397771980199984,
+        "ci95": [
+          21.46085733513337,
+          23.334686625266595
+        ],
+        "n_photos": 5,
+        "bootstrap_repetitions": 2000
+      }
+    },
+    "test": {
+      "generated_images": 60,
+      "flagged_images": 0,
+      "edge_f1": {
+        "mean": 0.3748875204579798,
+        "ci95": [
+          0.3083083227543986,
+          0.43260102993700905
+        ],
+        "n_photos": 20,
+        "bootstrap_repetitions": 2000
+      },
+      "dino_cosine": {
+        "mean": 0.3289872019706914,
+        "ci95": [
+          0.2381515851585815,
+          0.4200941811598992
+        ],
+        "n_photos": 20,
+        "bootstrap_repetitions": 2000
+      },
+      "seconds": {
+        "mean": 23.637976116633304,
+        "ci95": [
+          23.594470476750775,
+          23.68188331522495
+        ],
+        "n_photos": 20,
+        "bootstrap_repetitions": 2000
+      }
+    },
+    "all": {
+      "generated_images": 75,
+      "flagged_images": 0,
+      "edge_f1": {
+        "mean": 0.3877677968187679,
+        "ci95": [
+          0.3278944449684625,
+          0.4415646942958571
+        ],
+        "n_photos": 25,
+        "bootstrap_repetitions": 2000
+      },
+      "dino_cosine": {
+        "mean": 0.3417718597625693,
+        "ci95": [
+          0.258098585756806,
+          0.4222321218686798
+        ],
+        "n_photos": 25,
+        "bootstrap_repetitions": 2000
+      },
+      "seconds": {
+        "mean": 23.38993528934664,
+        "ci95": [
+          23.080380281899316,
+          23.625204987010967
+        ],
+        "n_photos": 25,
+        "bootstrap_repetitions": 2000
+      }
+    }
+  },
+  "style_score": null,
+  "style_score_note": "Human assessment required; not inferred from DINO."
+}
